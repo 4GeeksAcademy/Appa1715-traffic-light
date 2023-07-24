@@ -14,14 +14,44 @@
     background-color: black;
     width: 15px;
     height: 125px;
+    border-radius: 5%;
 }
 
 .traffic-body {
-    border-radius: 25%;
-    width: 100px;
-    height: 100px;
+    background-color: black;
+    width: 125px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 15%;
 }
 
-.Red {
+.red {
     background-color: red;
+    border-radius: 75%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 75%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+
+
+}
+
+.green {
+    background-color: green;
+    border-radius: 75%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+
+
 }
