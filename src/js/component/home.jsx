@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	const [selectColor, SetSelectColor] = useState("gray");
+	const [selectColor, SetSelectColor] = useState("");
 
 	return (
 			<div>
@@ -16,7 +16,7 @@ const Home = () => {
 						className={'red' + (selectColor === 'red' ? "glow" : "")}>
 						</div>
 						<div onClick={() => SetSelectColor('yellow')} 
-						className={'yellow' + (selectColor === 'yellow' ? "glow" : "")}>
+						className={(selectColor === 'yellow' ? "glow" : "")}>
 						</div>
 						<div onClick={() => SetSelectColor('green')} 
 						className={'green' + (selectColor === 'green' ? "glow" : "")}>

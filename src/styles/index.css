@@ -53,6 +53,8 @@
     width: 100px;
     height: 100px;
     margin-bottom: 5px;
+}
 
-
+.glow {
+   box-shadow: 1px 1px 40px 20px rgb(247, 255, 185); 
 }
