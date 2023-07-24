@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-top{
+    background-color: black;
+    width: 15px;
+    height: 125px;
+}
+
+.traffic-body {
+    border-radius: 25%;
+    width: 100px;
+    height: 100px;
+}
+
+.Red {
+    background-color: red;
+}
