@@ -25,7 +25,7 @@
     border-radius: 15%;
 }
 
-.red {
+.lightred {
     background-color: red;
     border-radius: 75%;
     padding: 5px;
@@ -35,7 +35,7 @@
     
 }
 
-.yellow {
+.lightyellow {
     background-color: yellow;
     border-radius: 75%;
     padding: 5px;
@@ -46,7 +46,7 @@
 
 }
 
-.green {
+.lightgreen {
     background-color: green;
     border-radius: 75%;
     padding: 5px;
